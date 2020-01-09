@@ -43,7 +43,7 @@ const create_item = () => {
     });
     item.appendChild(save_btn);
 
-    returnitem;
+    return item;
 };
 
 document.querySelectorAll('.drop').forEach(element => {
